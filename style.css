@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* header {
+  background-color: #42ded5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1.5rem 1rem;
+}
+
+* header .logo h1 {
+  color: white;
+  height: 60px;
+}
+
+* header nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+  height: 3rem;
+}
+
+* header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+* header nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+* header nav ul a:hover {
+  color: lightgreen;
+}
+
+* div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 400px;
+          flex: 5 1 400px;
+  padding-left: 2rem;
+}
+
+main .homePageBG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+main .homePageBG h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 4.5rem 0rem;
+}
+
+main .homePageBG .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #42ded5;
+  padding: 1.3rem 4rem;
+  border-radius: 2rem;
+  margin-bottom: 8rem;
+}
+
+main .homePageBG .card img {
+  width: 30%;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+main .homePageBG .card a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 2rem;
+}
+
+main .homePageBG .contactMe {
+  width: 100vw;
+  background-color: rgba(72, 245, 216, 0.3);
+  padding: 3rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .homePageBG .contactMe h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 2rem 0rem;
+}
+
+.contactPageBG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.contactPageBG h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 4.5rem 0rem;
+}
+
+.contactPageBG .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #42ded5;
+  padding: 1.3rem 4rem;
+  border-radius: 2rem;
+  margin-bottom: 8rem;
+}
+
+.contactPageBG .card img {
+  width: 30%;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contactPageBG .card .contactMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contactPageBG .card .contactMe .links {
+  width: 100%;
+  min-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0.5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contactPageBG .card .contactMe .links .icon {
+  width: 100%;
+  max-width: 80px;
+  padding: 1.5rem 0.8rem;
+}
+
+.contactPageBG .card .links {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactPageBG .card .links .icon {
+  width: 100%;
+  padding: 1.5rem 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactPageBG .card .textarea h3 {
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.contactPageBG .card .textarea textarea {
+  resize: none;
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */
